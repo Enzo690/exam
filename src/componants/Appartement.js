@@ -8,7 +8,6 @@ class Appart extends React.Component {
         super(props);
     }
     render() {
-        var price = this.props.price 
 
         return <div className="text-center col-md-4">
 
@@ -19,7 +18,7 @@ class Appart extends React.Component {
                     <Card.Text className="col-md-12 playfairdisplay-r state">
                     {this.props.city} / {this.props.country}
                     </Card.Text>
-                    <Card.Text className="price helvetica" variant="primary">{'$'+price.splice(0,3,",")}</Card.Text>
+                    <Card.Text className="price helvetica" variant="primary">{'$'+this.props.price}</Card.Text>
                     <Card.Footer variant="primary helvetica">{this.props.sqfit+' Sq Ft'} • {this.props.bedroom+' Bedrooms'} • {this.props.bathroom+' bathroom'}</Card.Footer>
                 </Card.Body>
             </Card>
