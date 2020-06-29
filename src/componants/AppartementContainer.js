@@ -34,30 +34,6 @@ class AppartContainer extends React.Component {
                     service: service
                 });
             })
-        const { service } = this.state;
-
-        return (
-            <div>
-                <div>
-                    {
-                        service.content.map((item, i) =>
-                            <Appart key={i}
-                                country={service.content[i].state}
-                                city={service.content[i].city}
-                                address={service.content[i].address}
-                                img={service.content[i].img}
-                                price={service.content[i].dollar}
-                                sqfit={service.content[i].squareFit}
-                                bathroom={service.content[i].nbBathRoom}
-                                bedroom={service.content[i].nbBedRoom}>
-                            </Appart>
-                        )
-                    }
-
-                </div>
-            </div>
-        )
-
     }
 
     render() {
