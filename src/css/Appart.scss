@@ -1,0 +1,57 @@
+@import 'var.scss';
+
+.containerAppart{
+    margin-top: 66px;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+
+.card-footer{
+    background-color: white !important;
+    color: $colorParaGreyLight;
+    font-weight: bold;
+}
+
+.cardAppart{
+    padding: 0 !important;
+    margin-bottom: 30px;
+    img{
+        padding: 0 !important;
+    }
+    .adress{
+        font-size: 22px;
+        color : $blackColorFont;
+        margin-top: 30px !important;
+        margin-bottom: 9px !important;
+    }
+    .state{
+        font-size: 15px;
+        color: $colorParaGreyLight;
+        margin-bottom: 0 !important;
+    }
+    .price{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 50px;
+        font-weight: bold;
+        color: $redline;
+        margin-top: 21px !important;
+        margin-bottom: 28px !important;
+        line-height: 50px;
+    }
+}
+
+.cardAppart:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.allPropertiesButton{
+    margin-top: 50px;
+    width: 174px !important;
+    height: 48px !important;
+    text-transform: uppercase;
+}
+
