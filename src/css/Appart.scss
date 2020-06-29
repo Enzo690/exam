@@ -19,6 +19,8 @@
     margin-bottom: 30px;
     img{
         padding: 0 !important;
+        border-top-left-radius:  calc(0.25rem - 1px);
+        border-top-right-radius: calc(0.25rem - 1px) ;
     }
     .adress{
         font-size: 22px;
