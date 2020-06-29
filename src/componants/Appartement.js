@@ -8,7 +8,6 @@ class Appart extends React.Component {
         super(props);
     }
     render() {
-
         return <div className="text-center col-md-4">
 
             <Card className="cardAppart">
